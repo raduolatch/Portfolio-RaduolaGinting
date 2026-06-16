@@ -2,7 +2,19 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      panding:'16px'
+    },
+    extend: {
+      colors: {
+        primary: 'oklch(68.5% 0.169 237.323)',
+        dark : 'oklch(20.8% 0.042 265.755)',
+      },
+      screens:{'2xl':'1320px'
+
+      },
+    },
   },
   plugins: [],
 }
